@@ -9,6 +9,7 @@ describe ContactUs::Contact do
     it {should validate_presence_of(:message)}
     it {should_not validate_presence_of(:name)}
     it {should_not validate_presence_of(:subject)}
+    it {should_not validate_presence_of(:website)}
 
     context 'with name and subject settings' do
 

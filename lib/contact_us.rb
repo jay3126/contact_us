@@ -12,7 +12,10 @@ module ContactUs
 
   # Enable or Disable subject field.
   mattr_accessor :require_subject
-
+  
+  # Enable or Disable website field.
+  mattr_accessor :require_website
+  
   # Formtastic or SimpleForm
   mattr_accessor :form_gem
 

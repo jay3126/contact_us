@@ -16,6 +16,15 @@
       <p class='inline-error'><%= f.object.errors[:email].join(' and ') %></p>
     <% end %>
   </li>
+  <% if ContactUs.require_website %>
+    <li class='string' id='contact_us_contact_website_input'>
+      <%= f.label :website, (t('.website') + content_tag(:abbr, '*', :class => 'contactleft')).html_safe %>
+      <%= f.text_field :website %>
+      <% if f.object.errors[:website].present? %>
+        <p class='inline-error'><%= f.object.errors[:website].join(' and ') %></p>
+      <% end %>
+    </li>
+  <% end %>
   <% if ContactUs.require_subject %>
     <li class='string required' id='contact_us_contact_subject_input'>
       <%= f.label :subject, (t('.subject') + content_tag(:abbr, '*', :class => 'required')).html_safe %>

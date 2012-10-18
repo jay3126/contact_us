@@ -1,3 +1,6 @@
+*ContactUs  (Kirkmod)
+* Add website field to the contactus form.
+
 *ContactUs 0.4.0 (Unreleased)*
 
 * Add default rails form helper support and remove Formtastic dependency. [Jeff Dutil]

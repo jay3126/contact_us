@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
   s.name        = "contact_us"
   s.version     = ContactUs::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Jeff Dutil"]
-  s.email       = ["JDutil@BurlingtonWebApps.com"]
-  s.homepage    = "https://github.com/jdutil/contact_us"
+  s.authors     = ["Kirk Portas"]
+  s.email       = ["kirkportas@gmail.com"]
+  s.homepage    = "https://github.com/AttoLLC/contact_us"
   s.summary     = %q{Gem providing simple Contact Us functionality with a Rails 3+ Engine.}
-  s.description = %q{A Rails 3+ Engine providing a basic contact form.  I used Formtastic to keep things simple, and to hook into your apps custom Formtastic stylesheets.}
+  s.description = %q{Adding 'Website' field to the contact form.}
 
   s.rubyforge_project = "contact_us"
 
